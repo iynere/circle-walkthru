@@ -14,16 +14,18 @@ Let’s break this down into a few steps to go from zero to continuous delivery:
 
 ## <a name="testing">Testing</a>
 
-I’m going to assume that most of you are familiar with the basic benefits of software: it can do tedious tasks much faster and more reliably than people can. Well, one task that goes hand-in-hand with creating software is testing software. Historically, this has involved teams of software developers writing a bunch of complicated code that does a bunch of complicated stuff, all to satisfy the exacting demands of some "requirements document". After they’re convinced everything works, they "throw it over the wall" to the test team, who clicks buttons and enter data and make sure the software does what the requirements document says it should. (An example would be: go to google.com, search for "apples", and ensure that you get relevant results about apples.) The testers find a bunch of problems, which they throw back "over the wall" to the developers, and the process is repeated until the bugs are small enough that some manager decides it’s good enough to ship.
+I’m going to assume that most of you are familiar with the basic benefits of software: it can do tedious tasks much faster and more reliably than people can. Well, one task that goes hand-in-hand with creating software is testing software. Historically, this has involved teams of software developers writing a bunch of complicated code that does a bunch of complicated stuff, all to satisfy the exacting demands of some "requirements document."
+
+After they’re convinced everything works, they "throw it over the wall" to the test team, who clicks buttons and enter data and make sure the software does what the requirements document says it should. (An example would be: go to google.com, search for "apples", and ensure that you get relevant results about apples.) The testers find a bunch of problems, which they throw back "over the wall" to the developers, and the process is repeated until the bugs are small enough that some manager decides it’s good enough to ship.
 
 This is obviously not ideal for a few reasons, such as:
 
-* It’s slow, because humans have to do the testing AND because of all the back-and-forth
+* It’s slow, because humans have to do the testing *and* because of all the back-and-forth
 * It’s imprecise, because english language is a vague way to capture software requirements
 
 ## <a name="automated-testing">Automated Testing</a>
 
-It turns out that software is a really good tool for testing software, that fixes the issues above. It still isn’t perfect, and it introduces some new challenges (like requiring developers to add test-writing into their coding process), but it is definitely an improvement.
+It turns out that software is a really good tool for testing software and fixes many of the issues above. It still isn’t perfect, and it introduces some new challenges (like requiring developers to add test-writing to their coding process), but it is definitely an improvement.
 
 Countless books, blog posts, podcasts, and zunecasts exist to cover the finer points of automated software testing, but it basically boils down to this: there should be one (or a few) simple software-based test processes that can be run, without any human involvement, to thoroughly test the main, production software (the "code under test") that has been developed.
 
@@ -37,7 +39,7 @@ Martin Fowler has historically been a pretty significant thought leader in this 
 
 ## <a name="enter-circleci">Enter CircleCI</a>
 
-(**Note**: If you get stuck on anything below, please bug @kevin or @rose in the "**circle-101**" channel in Slack. Scrollback in that channel is likely also a good resource/FAQ.)
+*(**Note**: If you get stuck on anything below, please bug @kevin or @rose in the "**circle-101**" channel in Slack. Scrollback in that channel is likely also a good resource/FAQ.)*
 
 The Martin Fowler article introduced the concept of software version control systems (VCS). Before you can use CircleCI, you’ll need to learn a bit about GitHub and Bitbucket, which are the two version control systems that work with CircleCI. Both are web-based version of a free, open source "**version control system**" called [Git](https://en.wikipedia.org/wiki/Git), but you don’t need to know too much about that right now.
 
@@ -110,7 +112,7 @@ Because there was no actual source code in your repo, and no actual tests config
 
 ### Bonus: why a build with no tests 'succeeds'
 
-See if you can do a little outside research to figure out why a command like `echo "hello world"` results in a "passing," rather than failing, build. Try opening Terminal on your Mac or using [this web-based terminal](https://www.tutorialspoint.com/unix_terminal_online.php) if you don't have a Mac. Take a look at [this article](http://stackoverflow.com/questions/6834487/what-is-the-variable-in-shell-scripting). 
+See if you can do a little outside research to figure out why a command like `echo "hello world"` results in a "passing," rather than failing, build. Try opening Terminal on your Mac or using [this web-based terminal](https://tutorialspoint.com/unix_terminal_online.php) if you don't have a Mac. Take a look at [this article](http://stackoverflow.com/questions/6834487/what-is-the-variable-in-shell-scripting). 
 
 Then try running these commands:
 
