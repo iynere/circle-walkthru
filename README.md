@@ -5,10 +5,10 @@ Welcome, Sales and Success folks! Today’s adventure involves the mystery of be
 Let’s break this down into a few steps to go from zero to continuous delivery:
 
 * [Testing](#testing)
-* Automated testing
-* Continuous Integration
-* Enter CircleCI
-* Continuous Delivery
+* [Automated Testing](#automated-testing)
+* [Continuous Integration](#continuous-integration)
+* [Enter CircleCI](#enter-circleci)
+* [Continuous Delivery](#continuous-delivery)
 
 ## <a name="testing">Testing</a>
 
@@ -19,19 +19,19 @@ This is obviously not ideal for a few reasons, such as:
 * It’s slow, because humans have to do the testing AND because of all the back-and-forth
 * It’s imprecise, because english language is a vague way to capture software requirements
 
-## Automated Testing
+## <a name="automated-testing">Automated Testing</a>
 
 It turns out that software is a really good tool for testing software, that fixes the issues above. It still isn’t perfect, and it introduces some new challenges (like requiring developers to add test-writing into their coding process), but it is definitely an improvement.
 
 Countless books, blog posts, podcasts, and zunecasts exist to cover the finer points of automated software testing, but it basically boils down to this: there should be one (or a few) simple software-based test processes that can be run, without any human involvement, to thoroughly test the main, production software (the "code under test") that has been developed.
 
-## Continuous Integration
+## <a name="continuous-integration">Continuous Integration</a>
 
 I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
 
 It was written by Martin Fowler, who has historically been a pretty significant thought leader in this space.
 
-## Enter CircleCI
+## <a name="enter-circleci">Enter CircleCI</a>
 
 (**Note**: If you get stuck on anything below, please bug @kevin or @rose in the "**circle-101**" channel in Slack. Scrollback in that channel is likely also a good resource/FAQ.)
 
@@ -119,6 +119,6 @@ $ echo $?
 
 On a Continuous Integration server an "exit code" of "0" means the tests passed.
 
-## Continuous Delivery
+## <a name="continuous-delivery">Continuous Delivery</a>
 
 Okay, that’s the basics of automated testing and how to do it on CircleCI. I’ll leave this article (also by Martin Fowler) to plant the seeds of Continuous Delivery in your brains: [http://martinfowler.com/bliki/ContinuousDelivery.html](http://martinfowler.com/bliki/ContinuousDelivery.html)
