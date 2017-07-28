@@ -29,7 +29,7 @@ Countless books, blog posts, podcasts, and zunecasts exist to cover the finer po
 
 I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: 
 
-[Continuous Integration – Martin Fowler](http://martinfowler.com/articles/continuousIntegration.html)
+*[Continuous Integration – Martin Fowler](http://martinfowler.com/articles/continuousIntegration.html)*
 
 Martin Fowler has historically been a pretty significant thought leader in this space.
 
@@ -43,8 +43,8 @@ You can learn the basics of GitHub in this guide: [https://guides.github.com/act
 
 And here are two similar guides for Bitbucket:
 
-- [Tutorial: Learn Git with Bitbucket Cloud](https://confluence.atlassian.com/bitbucket/tutorial-learn-git-with-bitbucket-cloud-759857287.html)
-- [Tutorial: Learn about pull requests in Bitbucket Cloud](https://confluence.atlassian.com/bitbucket/tutorial-learn-about-pull-requests-in-bitbucket-cloud-774243385.html)
+- *[Tutorial: Learn Git with Bitbucket Cloud](https://confluence.atlassian.com/bitbucket/tutorial-learn-git-with-bitbucket-cloud-759857287.html)*
+- *[Tutorial: Learn about pull requests in Bitbucket Cloud](https://confluence.atlassian.com/bitbucket/tutorial-learn-about-pull-requests-in-bitbucket-cloud-774243385.html)*
 
 These guides go into a bit more detail than is necessary for this walk-through, particularly the Bitbucket guides, however they may be helpful to you in the future. Whether or not you choose to complete them now, the following steps assume that you have created a GitHub or Bitbucket account, so please create one now if you haven't already done so.
 
@@ -101,7 +101,7 @@ You should see your build start to run automatically—and pass! So, what just h
 
 Because there was no actual source code in your repo, and no actual tests configured in your `config.yml`, Circle considers your build to have "succeeded." Most customers' projects are far more complicated, oftentimes with multiple Docker images and multiple steps, including a large number of tests—[here's an example](https://circleci.com/docs/2.0/configuration-reference/#full-example). You can learn more about all the possible steps one might put in a `config.yml` file here:
 
-[Writing Jobs with Steps](https://circleci.com/docs/2.0/configuration-reference)
+*[Writing Jobs with Steps](https://circleci.com/docs/2.0/configuration-reference)*
 
 --------------------
 
@@ -125,4 +125,4 @@ On a Continuous Integration server an "exit code" of "0" means the tests passed.
 
 Okay, that’s the basics of automated testing and how to do it on CircleCI. I’ll leave this article to plant the seeds of Continuous Delivery in your brains:
 
-[Continuous Delivery – Martin Fowler](http://martinfowler.com/bliki/ContinuousDelivery.html)
+*[Continuous Delivery – Martin Fowler](http://martinfowler.com/bliki/ContinuousDelivery.html)*
