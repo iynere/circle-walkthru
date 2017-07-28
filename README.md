@@ -4,13 +4,13 @@ Welcome, Sales and Success folks! Today’s adventure involves the mystery of be
 
 Let’s break this down into a few steps to go from zero to continuous delivery:
 
-* Testing
+* [Testing](#testing)
 * Automated testing
 * Continuous Integration
 * Enter CircleCI
 * Continuous Delivery
 
-## Testing
+## <a name="testing">Testing</a>
 
 I’m going to assume that most of you are familiar with the basic benefits of software: it can do tedious tasks much faster and more reliably than people can. Well, one task that goes hand-in-hand with creating software is testing software. Historically, this has involved teams of software developers writing a bunch of complicated code that does a bunch of complicated stuff, all to satisfy the exacting demands of some "requirements document". After they’re convinced everything works, they "throw it over the wall" to the test team, who clicks buttons and enter data and make sure the software does what the requirements document says it should. (An example would be: go to google.com, search for "apples", and ensure that you get relevant results about apples.) The testers find a bunch of problems, which they throw back "over the wall" to the developers, and the process is repeated until the bugs are small enough that some manager decides it’s good enough to ship.
 
