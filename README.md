@@ -27,6 +27,8 @@ Countless books, blog posts, podcasts, and zunecasts exist to cover the finer po
 
 ## <a name="continuous-integration">Continuous Integration</a>
 
+[ci pic](https://raw.githubusercontent.com/iynere/circle-walkthru/master/ci.png)
+
 I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: 
 
 *[Continuous Integration – Martin Fowler](http://martinfowler.com/articles/continuousIntegration.html)*
