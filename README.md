@@ -27,7 +27,7 @@ Countless books, blog posts, podcasts, and zunecasts exist to cover the finer po
 
 ## <a name="continuous-integration">Continuous Integration</a>
 
-I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
+I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: [http://martinfowler.com/articles/continuousintegration.html](http://martinfowler.com/articles/continuousintegration.html)
 
 It was written by Martin Fowler, who has historically been a pretty significant thought leader in this space.
 
@@ -121,4 +121,4 @@ On a Continuous Integration server an "exit code" of "0" means the tests passed.
 
 ## <a name="continuous-delivery">Continuous Delivery</a>
 
-Okay, that’s the basics of automated testing and how to do it on CircleCI. I’ll leave this article (also by Martin Fowler) to plant the seeds of Continuous Delivery in your brains: [http://martinfowler.com/bliki/ContinuousDelivery.html](http://martinfowler.com/bliki/ContinuousDelivery.html)
+Okay, that’s the basics of automated testing and how to do it on CircleCI. I’ll leave this article (also by Martin Fowler) to plant the seeds of Continuous Delivery in your brains: [http://martinfowler.com/bliki/continuousdelivery.html](http://martinfowler.com/bliki/continuousdelivery.html)
