@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/<language>:<version TAG>
+      - image: circleci/ruby:2.3-node-browsers
     steps:
       - checkout
       - run: echo "hello world"
