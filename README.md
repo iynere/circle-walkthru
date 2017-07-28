@@ -1,5 +1,7 @@
 # Encyclopedia Brown and the Case of Getting Tests to Pass on Circle
 
+![ci pic](https://raw.githubusercontent.com/iynere/circle-walkthru/master/ci.png)
+
 Welcome, Sales and Success folks! Today’s adventure involves the mystery of best-of-breed, cloud-based, continuous integration and delivery. Specifically, what is all of that stuff? And why do people care about it?
 
 Let’s break this down into a few steps to go from zero to continuous delivery:
@@ -26,8 +28,6 @@ It turns out that software is a really good tool for testing software, that fixe
 Countless books, blog posts, podcasts, and zunecasts exist to cover the finer points of automated software testing, but it basically boils down to this: there should be one (or a few) simple software-based test processes that can be run, without any human involvement, to thoroughly test the main, production software (the "code under test") that has been developed.
 
 ## <a name="continuous-integration">Continuous Integration</a>
-
-![ci pic](https://raw.githubusercontent.com/iynere/circle-walkthru/master/ci.png)
 
 I’m going to defer to an external resource to provide a pretty good introduction of the idea of Continuous Integration: 
 
