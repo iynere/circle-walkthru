@@ -109,7 +109,7 @@ Because there was no actual source code in your repo, and no actual tests config
 See if you can do a little outside research to figure out why a command like `echo "hello world"` results in a "passing," rather than failing, build. Try opening Terminal on your Mac or using [this web-based terminal](https://www.tutorialspoint.com/unix_terminal_online.php) if you don't have a Mac. Take a look at [this article](http://stackoverflow.com/questions/6834487/what-is-the-variable-in-shell-scripting). 
 
 Then try running these commands:
-as
+
 ```
 $ echo Hi
 $ echo $?
