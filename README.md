@@ -1,8 +1,8 @@
-# Encyclopedia Brown and the Case of Getting Tests to Pass on Circle
-
-![ci pic](https://raw.githubusercontent.com/iynere/circle-walkthru/master/ci.png)
+# Encyclopedia Brown and the Case of Getting Tests to Pass on CircleCI
 
 Welcome, Sales and Success folks! Today’s adventure involves the mystery of best-of-breed, cloud-based, continuous integration and delivery. Specifically, what is all of that stuff? And why do people care about it?
+
+![ci pic](https://raw.githubusercontent.com/iynere/circle-walkthru/master/ci.png)
 
 Let’s break this down into a few steps to go from zero to continuous delivery:
 
