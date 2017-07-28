@@ -89,6 +89,8 @@ For this step, you will need a CircleCI account. Make sure you are logged into y
 
 Next, you will be given the option of "**following**" any projects you have access to that are already building on CircleCI (this would typically apply to developers connected to a company or organization's GitHub/Bitbucket account). Since this probably doesn't apply to you, click "**Skip - I don't want to follow any projects.**" On the next screen, you'll be able to add the repo you just created as a new project on Circle.
 
+![add-projects-page](https://raw.githubusercontent.com/iynere/circle-walkthru/master/add%20projects%20page.png)
+
 To add your new repo, find your GitHub or Bitbucket account on the left side of the page, under the "**1) Choose an organization that you are a member of**" text. When you click on your account, you should see your repo appear in the window on the right. Click the "**Setup project**" button next to it.
 
 On the next screen, you're given some options for configuring your project on CircleCI. Leave everything as-is for now and just click the "**Start building**" button a bit down the page on the right.
