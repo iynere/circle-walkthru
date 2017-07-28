@@ -99,11 +99,11 @@ On the next screen, you're given some options for configuring your project on Ci
 
 You should see your build start to run automatically—and pass! So, what just happened? Click on the green button and let's investigate.
 
-**1. Spin up environment:** CircleCI used the `ruby:2.3-node-browsers` Docker image to launch a virtual computing environment with Ruby, Node.js, and web browsers pre-installed.
+**1. Spin up environment:** CircleCI used the `ruby:2.3-node-browsers` Docker image to launch a virtual computing environment with Ruby, Node.js, and web browsers pre-installed
 
-**2. Checkout code:** Circle checked out your GitHub/Bitbucket repository and "cloned" it into the virtual environment launched in step 1.
+**2. Checkout code:** Circle checked out your GitHub/Bitbucket repository and "cloned" it into the virtual environment launched in step 1
 
-**3. echo "hello world":** this was the only other instruction in your `config.yml` file: Circle ran the `echo` command with the input "hello world" ([`echo`](https://linux.die.net/man/1/echo) does exactly what you'd think it should do)
+**3. echo "hello world":** this was the only other instruction in your `config.yml` file: Circle ran the `echo` command with the input "hello world" ([`echo`](https://linux.die.net/man/1/echo) does exactly what you'd think it would do)
 
 Because there was no actual source code in your repo, and no actual tests configured in your `config.yml`, Circle considers your build to have "succeeded." Most customers' projects are far more complicated, oftentimes with multiple Docker images and multiple steps, including a large number of tests—[here's an example](https://circleci.com/docs/2.0/configuration-reference/#full-example). You can learn more about all the possible steps one might put in a `config.yml` file here:
 
